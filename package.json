@@ -1,0 +1,31 @@
+{
+  "name": "graphql-node-redis",
+  "version": "1.0.0",
+  "description": "graphql-node-redis",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomasim/graphql-node-redis.git"
+  },
+  "author": "jomasim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jomasim/graphql-node-redis/issues"
+  },
+  "homepage": "https://github.com/jomasim/graphql-node-redis#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "apollo-server-cache-redis": "^1.1.5",
+    "apollo-server-express": "^2.9.15",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8"
+  }
+}
