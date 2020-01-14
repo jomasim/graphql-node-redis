@@ -4,6 +4,11 @@ export default {
             { id: '643664633gdgsg', name: 'Unga', description: 'maize flour' },
             { id: '54545454fgr4rtrg', name: 'Taco', description: 'blazing meal' }
         ],
-        user: () => 'Joma Sim'
     },
+    Mutation: {
+        register: (parent, { username, password }, ctx, info) => {
+            const user = { username, password }
+            return user;
+        }
+    }
 }
